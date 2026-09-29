@@ -1,0 +1,10 @@
+{
+  "name": "warren-chanansingh-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node serve.mjs",
+    "build": "node build.mjs",
+    "check": "node build.mjs && node check.mjs"
+  }
+}
